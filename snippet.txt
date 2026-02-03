@@ -1,4 +1,13 @@
-<model-viewer src="DVE_L8_SoloSculpt.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" camera-orbit="408.4deg 71.83deg 0.3458m" field-of-view="30deg" auto-rotate>
+<model-viewer src="DVE_L8_SoloSculpt.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" camera-orbit="53.71deg 74.62deg 0.3458m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.01244788052477685m 0.09231871047874983m 0.05531058271554486m" data-normal="0.8238242310120384m 0.5255484679075654m 0.2123969027020749m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Body</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.019718949753576142m 0.05705572090261815m -0.050031307811940116m" data-normal="0.2018014709655485m 0.29385584351212596m 0.9343045057955774m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Grip</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.05282780813785462m 0.0011985126764340124m -0.024332690217815235m" data-normal="0.9076713330933828m -0.00021355813158403046m -0.41968167159575376m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pins</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.03938963471108829m 0.04752544975280761m -0.020810631035637725m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Screen</div>
+    </button>
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
